@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Hero } from "@/sections/Hero";
+import Image from "next/image";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,8 +25,126 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header></header>
+        <main>{children}</main>
+        <footer></footer>
       </body>
+      {/* <body>
+        <header className="p-4 ">
+          <div className="container flex justify-between">
+            <a
+              href="/"
+              className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline focus:underline duration-300"
+            >
+              Logo
+            </a>
+            <nav>
+              <ul className="flex gap-3">
+                <li>
+                  <a
+                    href="/home"
+                    className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/contact"
+                    className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  >
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/games"
+                    className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  >
+                    Games
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main>
+          <section id="home" className="py-10">
+            <div className="container">
+              <div className="mx-auto bg-orange-300 rounded-3xl flex justify-between p-3 w-[600px]">
+                <Image
+                  className="rounded-[100%]"
+                  src="/images/portfolio10-2x.jpg"
+                  alt="jsfhkfsjhfksdjh"
+                  width="300"
+                  height="200"
+                />
+                <div className="flex flex-col justify-center">
+                  <h2 className="font-semibold text-4xl mb-4">TOm Gjhhgjh</h2>
+                  <h4 className="font-medium text-2xl mb-2">Statistics:</h4>
+                  <ul>
+                    <li className="font-normal text-xl">Level 100</li>
+                    <li className="font-normal text-xl">Games 100</li>
+                    <li className="font-normal text-xl">Gol 105021</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="py-10" id="games">
+            <div className="container">
+              <h2 className="text-4xl text-green-800 text-center uppercase mb-5">
+                Games
+              </h2>
+              <Hero />
+            </div>
+          </section>
+        </main>
+        <footer id="contact" className="py-10">
+          <div className="container flex justify-between">
+            <a
+              href="/page-2.html"
+              className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+            >
+              Policy
+            </a>
+            <ul className=" flex gap-5">
+              <li>
+                <a
+                  className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  href="http//instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  Instagram
+                </a>{" "}
+              </li>
+              <li>
+                {" "}
+                <a
+                  className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  href="http//facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  facebook
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  className=" font-medium text-2xl inline-block text-green-700 transition-all hover:underline  hover:text-purple-900 focus:underline duration-300"
+                  href="http//telegram.org/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  Telegram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </body> */}
     </html>
   );
 }

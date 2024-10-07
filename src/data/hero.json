@@ -1,0 +1,75 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "image": "/images/portfolio1-2x.jpg",
+      "alt": "Red Apple",
+      "name": "Apple",
+      "description": "A fresh red apple."
+    },
+    {
+      "id": 2,
+      "image": "/images/portfolio2-2x.jpg",
+      "alt": "Bananas",
+      "name": "Banana",
+      "description": "A bunch of ripe bananas."
+    },
+    {
+      "id": 3,
+      "image": "/images/portfolio3-2x.jpg",
+      "alt": "Grapes",
+      "name": "Grapes",
+      "description": "A bunch of red grapes."
+    },
+    {
+      "id": 4,
+      "image": "/images/portfolio4-2x.jpg",
+      "alt": "Strawberries",
+      "name": "Strawberries",
+      "description": "Fresh strawberries in a bowl."
+    },
+    {
+      "id": 5,
+      "image": "/images/portfolio4-2x.jpg",
+      "alt": "Avocado",
+      "name": "Avocado",
+      "description": "A halved avocado."
+    },
+    {
+      "id": 6,
+      "image": "/images/portfolio5-2x.jpg",
+      "alt": "Tomatoes",
+      "name": "Tomato",
+      "description": "A group of tomatoes on the vine."
+    },
+    {
+      "id": 7,
+      "image": "/images/portfolio6-2x.jpg",
+      "alt": "Oranges",
+      "name": "Orange",
+      "description": "Fresh oranges in a basket."
+    },
+    {
+      "id": 8,
+      "image": "/images/portfolio7-2x.jpg",
+      "alt": "Pineapple",
+      "name": "Pineapple",
+      "description": "A whole pineapple."
+    },
+    {
+      "id": 9,
+      "image": "/images/portfolio8-2x.jpg",
+      "alt": "Watermelon",
+      "name": "Watermelon",
+      "description": "A sliced watermelon."
+    },
+    {
+      "id": 10,
+      "image": "/images/portfolio9-2x.jpg",
+      "alt": "Blueberries",
+      "name": "Blueberries",
+      "description": "A bowl of fresh blueberries."
+    }
+  ],
+  "button": "Купить"
+}
